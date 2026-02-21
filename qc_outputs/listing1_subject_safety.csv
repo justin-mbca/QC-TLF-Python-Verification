@@ -1,0 +1,11 @@
+USUBJID,AGE,SEX,RACE,TRT01A,SAFFL,ITTFL,PPSFL
+1001,34,M,White,Placebo,Y,Y,Y
+1002,67,F,Asian,DrugA,Y,Y,N
+1003,55,F,Black,DrugA,Y,N,Y
+1004,72,M,White,Placebo,Y,Y,Y
+1005,45,F,Asian,DrugA,Y,Y,Y
+1006,60,M,Black,Placebo,Y,N,Y
+1007,38,F,White,DrugA,Y,Y,Y
+1008,80,M,Asian,Placebo,Y,Y,N
+1009,52,F,Black,DrugA,Y,Y,Y
+1010,63,M,White,Placebo,Y,Y,Y
