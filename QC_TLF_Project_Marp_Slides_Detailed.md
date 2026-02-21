@@ -46,12 +46,51 @@ import matplotlib.pyplot as plt
 
 
 ## Sample Outputs
-- table1_age_by_treatment.csv: Summary statistics for AGE by treatment arm
   Link: https://github.com/justin-mbca/QC-TLF-Python-Verification/blob/main/qc_outputs/table1_age_by_treatment.csv
-- listing1_subject_safety.csv: Subject-level listing for Safety population
   Link: https://github.com/justin-mbca/QC-TLF-Python-Verification/blob/main/qc_outputs/listing1_subject_safety.csv
-- figure1_age_histogram.png: Histogram of AGE by treatment arm
   Link: https://github.com/justin-mbca/QC-TLF-Python-Verification/blob/main/qc_outputs/figure1_age_histogram.png
+
+---
+
+## TLF Output: Table 1 - Age by Treatment
+
+| TRT01A   | N | Mean | SD   | Min | Max |
+|----------|---|------|------|-----|-----|
+| DrugA    | 5 | 51.4 | 10.9 | 38  | 67  |
+| Placebo  | 5 | 61.8 | 17.4 | 34  | 80  |
+
+---
+
+## TLF Output: Listing 1 - Subject Safety
+
+<!-- size: 80% -->
+| USUBJID | AGE | SEX | RACE   | TRT01A  | SAFFL | ITTFL | PPSFL |
+|---------|-----|-----|--------|---------|-------|-------|-------|
+| 1001    | 34  | M   | White  | Placebo | Y     | Y     | Y     |
+| 1002    | 67  | F   | Asian  | DrugA   | Y     | Y     | N     |
+| 1003    | 55  | F   | Black  | DrugA   | Y     | N     | Y     |
+| 1004    | 72  | M   | White  | Placebo | Y     | Y     | Y     |
+| 1005    | 45  | F   | Asian  | DrugA   | Y     | Y     | Y     |
+
+---
+
+<!-- size: 80% -->
+## TLF Output: Listing 1 - Subject Safety (cont.)
+| USUBJID | AGE | SEX | RACE   | TRT01A  | SAFFL | ITTFL | PPSFL |
+|---------|-----|-----|--------|---------|-------|-------|-------|
+| 1006    | 60  | M   | Black  | Placebo | Y     | N     | Y     |
+| 1007    | 38  | F   | White  | DrugA   | Y     | Y     | Y     |
+| 1008    | 80  | M   | Asian  | Placebo | Y     | Y     | N     |
+| 1009    | 52  | F   | Black  | DrugA   | Y     | Y     | Y     |
+| 1010    | 63  | M   | White  | Placebo | Y     | Y     | Y     |
+
+---
+
+## TLF Output: Figure 1 - Age Histogram
+
+![Age Histogram](qc_outputs/figure1_age_histogram.png)
+
+---
 
 ---
 
