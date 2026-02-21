@@ -44,10 +44,11 @@ import matplotlib.pyplot as plt
 
 ---
 
+
 ## Sample Outputs
-- table1_age_by_treatment.csv: Summary statistics for AGE by treatment arm
-- listing1_subject_safety.csv: Subject-level listing for Safety population
-- figure1_age_histogram.png: Histogram of AGE by treatment arm
+- [table1_age_by_treatment.csv](https://github.com/justin-mbca/QC-TLF-Python-Verification/blob/main/qc_outputs/table1_age_by_treatment.csv): Summary statistics for AGE by treatment arm
+- [listing1_subject_safety.csv](https://github.com/justin-mbca/QC-TLF-Python-Verification/blob/main/qc_outputs/listing1_subject_safety.csv): Subject-level listing for Safety population
+- [figure1_age_histogram.png](https://github.com/justin-mbca/QC-TLF-Python-Verification/blob/main/qc_outputs/figure1_age_histogram.png): Histogram of AGE by treatment arm
 
 ---
 
