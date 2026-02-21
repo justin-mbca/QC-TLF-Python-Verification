@@ -172,13 +172,22 @@ import matplotlib.pyplot as plt
 ---
 
 ## Next Steps
-- Add more TLFs/listings per SAP
-- Integrate Excel export, PowerPoint automation, or SAS integration
-- Adapt for other clinical trial datasets
 
 ---
 
-## Marp Usage
+## Placeholder: Live SAS Server Integration
+
+Suppose we have access to a SAS server (on-prem or cloud), we can:
+- Run SAS scripts directly from Python using saspy or REST APIs
+- Generate TLF outputs in real time
+- Compare Python and SAS outputs automatically (cell-by-cell, listings, figures)
+- Update this slide deck with live results and comparison metrics
+
+This enables fully automated, reproducible QC workflows and seamless integration between Python and SAS.
+
+---
+
+
 - Add `marp: true` in front-matter
 - Write slides in Markdown
 - Preview and export to PPTX/PDF in VS Code
