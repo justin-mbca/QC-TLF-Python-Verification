@@ -87,9 +87,50 @@ import matplotlib.pyplot as plt
 
 ---
 
+
+---
+
+
+## Calling SAS from Python for Integrated QC
+
+- **Why?**
+  - Automate running SAS scripts and comparing outputs directly from Python.
+  - Streamline cell-by-cell QC between Python and SAS TLFs.
+
+- **Practical Options:**
+  1. **Local SAS executable (Windows/Linux):**
+     - Use Python’s subprocess module:
+       ```python
+       import subprocess
+       subprocess.run(['sas', 'your_script.sas'], check=True)
+       ```
+     - Requires SAS installed locally.
+
+  2. **Remote SAS server (any OS):**
+     - Use SASPy to connect from Python:
+       ```python
+       import saspy
+       sas = saspy.SASsession()
+       sas.submit("proc print data=yourdata; run;")
+       ```
+     - Requires access to a SAS server (on-prem or cloud).
+
+  3. **SAS Viya (cloud):**
+     - Use SASPy or REST APIs for integration.
+     - Supports modern Python/SAS workflows.
+
+  4. **SAS OnDemand for Academics (cloud):**
+     - Run SAS scripts in browser, export outputs for comparison.
+     - Cannot call directly from Python, but can automate downloads.
+
+- **Documentation:**
+  - Add sample scripts and instructions in repo for reproducible QC.
+
+---
+
 ## Next Steps
 - Add more TLFs/listings per SAP
-- Integrate Excel export or PowerPoint automation if needed
+- Integrate Excel export, PowerPoint automation, or SAS integration
 - Adapt for other clinical trial datasets
 
 ---
